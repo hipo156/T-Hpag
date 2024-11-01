@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="agregarproducto.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Agregar un Producto</h1>
+        <form id="productForm">
+            <label for="productName">Nombre del Producto:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productDescription">Descripción:</label>
+            <textarea id="productDescription" rows="3" required></textarea>
+
+            <label for="productPrice">Precio:</label>
+            <input type="number" id="productPrice" required>
+
+            <label for="productImage">Imagen del Producto:</label>
+            <input type="file" id="productImage" accept="image/*" required>
+<a href="/404.html">
+            <button type="submit">Agregar Producto</button>
+        </a>
+        </form>
+        <a href="index.html" class="view-products-link">Ver Productos</a>
+    </div>
+    <script src="agregarproducto.js"></script>
+</body>
+</html>
